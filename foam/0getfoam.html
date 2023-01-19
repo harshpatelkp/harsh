@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01form</title>
+</head>
+<body>
+    <form method="get">
+        <table border="2" align="center">
+            <tr>
+                <td><label for="username">User Name</label></td>
+                <td><input type="text" name="username" autocomplete="additional-name" id="username" required /></td>
+            </tr>
+            <tr>
+                <td><label for="password">password</label></td>
+                <td><input type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+                <td><label for="email">email</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="mobile No.">mobile No.</label></td>
+                <td><input type="mobile No." name="mobile No." id="mobile No."></td>
+            </tr>
+            <tr>
+                <td><label for="gender">gender</label></td>
+                <td>
+                    <input type="radio" name="gender" id="Male" ><label for="male">male</label>
+                    <input type="radio" name="gender" id="female" ><label for="female">female</label>
+                </td>
+            </tr>
+            <!-- <tr>
+                <td><label for="gender">gender</label></td>
+                <td>
+                    <input type="radio" name="gender" checked id="Male" ><label for="male">male</label>
+                    <input type="radio" name="gender" id="female" ><label for="female">female</label>
+                </td>
+            </tr> -->
+            <tr>
+                <td><label for="">Hobbies</label></td>
+                <td>
+                    <input type="checkbox" name="hob" value="cricket" id="cricket" ><label for="cricket">cricket</label>
+                    <input type="checkbox" name="hob" value="reading" id="reading"><label for="reading">reading</label>
+                    <input type="checkbox" name="hob" value="music" id="music" ><label for="music">music</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="" >Education</label></td>
+                <td>
+                    <select name="" id="">
+                        <option value="">12th</option>
+                        <option value="">b.com</option>
+                        <option value="">m.com</option>
+                        <option value="">m.phill</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="" >City</label></td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Ahemdabad</option>
+                        <option value="">Delhi</option>
+                        <option value="">Jaipur</option>
+                        <option value="">Mumbai</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Address</label></td>
+                <td>
+                    <textarea name="location" id="" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="save" ></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>

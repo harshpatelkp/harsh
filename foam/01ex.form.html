@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 align="center">REGISTRATION PAGE</h1>
+    <form method="post" border="2">
+        <table align="center" cellspading="10" cellspacing="10">
+            <tr>
+                <td><b><label for="First Name">First Name</label></b></td>
+                <td><input type="text" name="firstname" autocomplete="additional-name" id="firstname" required/></td>
+            </tr>
+            <tr>
+                <td><b><label for="Middlename">Middlename</label></b></td>
+                <td><input type="text" name="Middlename" autocomplete="additional-name" id="Middlename" required/></td>
+            </tr>
+            <tr>
+                <td><b><label for="Lastname">Lastname</label></b></td>
+                <td><input type="text" name="Lastname" autocomplete="additional-name" id="Lastname" required/></td>
+            </tr>
+            <tr>
+                <td><b><label for="Cource">Cource</label></b></td>
+                <td>
+                    <select name=" cource" id="Cource">
+                        <option value="">BCA</option>
+                        <option value="">MBA</option>
+                        <option value="">BBA</option>
+                        <option value="">B.TECH</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b><label for="">Gender</label></b></td>
+                <td>
+                    <input type="radio" id="male" name="Gender"><label for="male">male</label>
+                    <input type="radio" id="female" name="Gender"><label for="female">female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><b><label for="">Mobile.no</label></b></td>
+                <td><input type="number" name="mobile.no" autocomplete="cc-number" id="mobile.no" required/></td>
+            </tr>
+            <tr>
+                <td><b><label for="">Address</label></b></td><br>
+                <td>
+                    <textarea name="Address" id="" cols="22" rows="3"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><b><label for="">Email</label></b></td>
+                <td><input type="text" name="email" autocomplete="email" id="email" required/></td>
+            </tr>
+            <tr>
+                <td><b><label for="">Password</label></b></td>
+                <td><input type="text" name="Password" autocomplete="Password" id="Password" required/></td>
+            </tr>
+            <tr>
+                <td><b><label for="">RE-Type-Password</label></b></td>
+                <td><input type="text" name="RE-Type-Password" autocomplete="RE-Type-Password" id="RE-Type-Password" required/></td>
+            </tr>
+            <tr align="center">
+                <td><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
